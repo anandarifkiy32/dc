@@ -1,0 +1,138 @@
+<!--
+  Generated template for the MateriPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>    
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <ion-navbar class="navbar">
+    Materi
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class="card-background-page">
+    <ion-grid class="grid" >
+        <ion-row class="row">
+          <ion-col col-12 class="col">
+            <div class="card-background-page">
+              <ion-card class="cardheader" (click)="bukaPendahuluan()" >
+                  <img src="assets/img/coba.jpeg"/>
+                  <div class="wak">Pendahuluan</div>
+              </ion-card>
+            </div>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col col-6 class="colkiri">
+              <ion-card class="cardkiri" (click)="bukaMuatanListrik()">
+                  <img class="bulat" src="assets/img/ionic.jpg"/>
+                  <ion-card-content>
+                    <ion-card-title class="judul">
+                      Muatan Listrik
+                    </ion-card-title>
+                  </ion-card-content>
+              </ion-card>
+          </ion-col>
+          <ion-col col-6 class="colkanan"> 
+              <ion-card class="cardkanan" (click)="bukaKuatArus()">
+                  <img class="bulat" src="assets/img/coba.jpeg"/>
+                  <ion-card-content class="isi">
+                    <ion-card-title class="judul">
+                      Kuat Arus
+                    </ion-card-title>
+                  </ion-card-content>
+              </ion-card>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-6 class="colkiri">
+                <ion-card class="cardkiri" (click)="bukaMuatanTotal()">
+                    <img class="bulat" src="assets/img/ionic.jpg"/>
+                    <ion-card-content>
+                      <ion-card-title class="judul">
+                        Muatan Listrik Total
+                      </ion-card-title>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+            <ion-col col-6 class="colkanan"> 
+                <ion-card class="cardkanan" (click)="bukaHukumOhm()">
+                    <img class="bulat" src="assets/img/coba.jpeg"/>
+                    <ion-card-content>
+                      <ion-card-title class="judul">
+                        Hukum Ohm
+                      </ion-card-title>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+              <ion-col col-6 class="colkiri">
+                  <ion-card class="cardkiri" (click)="bukaHambatan()">
+                      <img class="bulat" src="assets/img/ionic.jpg"/>
+                      <ion-card-content>
+                        <ion-card-title class="judul">
+                          Hambatan
+                        </ion-card-title>
+                      </ion-card-content>
+                  </ion-card>
+              </ion-col>
+              <ion-col col-6 class="colkanan"> 
+                  <ion-card class="cardkanan" (click)="bukaHambatanSeri()">
+                      <img class="bulat" src="assets/img/coba.jpeg"/>
+                      <ion-card-content>
+                        <ion-card-title class="judul">
+                          Hambatan Seri
+                        </ion-card-title>
+                      </ion-card-content>
+                  </ion-card>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col col-6 class="colkiri">
+                    <ion-card class="cardkiri" (click)="bukaHambatanParalel()">
+                        <img class="bulat" src="assets/img/ionic.jpg"/>
+                        <ion-card-content>
+                          <ion-card-title class="judul">
+                            Hambatan Paralel
+                          </ion-card-title>
+                        </ion-card-content>
+                    </ion-card>
+                </ion-col>
+                <ion-col col-6 class="colkanan"> 
+                    <ion-card class="cardkanan" (click)="bukaHambatanGabungan()">
+                        <img class="bulat" src="assets/img/coba.jpeg"/>
+                        <ion-card-content>
+                          <ion-card-title class="judul">
+                           Hambatan Gabungan
+                          </ion-card-title>
+                        </ion-card-content>
+                    </ion-card>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                  <ion-col col-6 class="colkiri">
+                      <ion-card class="cardkiri" (click)="bukaHukumKirchoff()">
+                          <img class="bulat" src="assets/img/ionic.jpg"/>
+                          <ion-card-content>
+                            <ion-card-title class="judul">
+                              Hukum Kirchoff
+                            </ion-card-title>
+                          </ion-card-content>
+                      </ion-card>
+                  </ion-col>
+                  <ion-col col-6 class="colkanan"> 
+                      <ion-card class="cardkanan" (click)="bukaJembatan()">
+                          <img class="bulat" src="assets/img/coba.jpeg"/>
+                          <ion-card-content>
+                            <ion-card-title class="judul">
+                              Jembatan Wheastone
+                            </ion-card-title>
+                          </ion-card-content>
+                      </ion-card>
+                  </ion-col>
+                </ion-row>
+      </ion-grid>
+  </ion-content>

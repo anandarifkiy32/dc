@@ -1,0 +1,80 @@
+page-materi {
+  font-family: 'Raleway', sans-serif;
+  .navbar{
+    font-size: 22px;
+    font-weight: bold;
+
+  }
+
+  .colkanan{
+    padding-left: 0px;
+  }
+
+  .colkiri{
+    padding-right: 0px;
+  }
+  .row{
+  
+    padding: 0px;
+    justify-content: space-around;
+  }
+
+    .bulat{
+      margin: 0 auto;
+      width: 90px;
+      height: 90px;
+      margin-top: 15px;
+      border-radius: 50%
+    }
+
+    .judul{
+     text-align: center;
+     font-size: 15px;
+     padding-top: 0px;
+     padding-bottom: 0px;
+     text-align: bottom;
+     font-weight: bold;
+     color: black;
+     position: absolute;
+     bottom:10px;
+     right: 0px;
+     left: 0px;
+
+    }
+
+    .isi{
+      margin-top: 0 auto;
+      
+    }
+   .card{
+      margin-bottom: 0px;
+      margin-top: 5px;
+      height: 150px;
+      background-color: rgb(247, 247, 247);
+    }
+
+    .cardheader{
+ 
+      height: 200%;
+    }
+
+
+    .card-background-page {
+      
+        ion-card {
+          position: relative;
+          text-align: center;
+        }
+      
+        .wak {
+          position: absolute;
+          top: 45%;
+          font-size: 2.0em;
+          width: 100%;
+          font-weight: bold;
+          color: #fff;
+        }
+      
+      }
+
+}
