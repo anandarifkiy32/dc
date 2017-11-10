@@ -1,24 +1,47 @@
 page-home {
-    .option{
-        margin: 0 auto;
+    // .option{
+    //     margin: 0 auto;
       
-        top: 45%;
+    //     top: 45%;
+    // }
+    .content{
+        background-color: #004E7F;
     }
+   
+    .img{
+        position: fixed;
+        width: 100%;
+        height: 100px;
+      }
+
     .btn-opsi{
-        width: 73%;
-        height: 36px;
-        display: flex;   
-        margin: 0 auto;
-        margin-top: 10px;
-        font-family: 'Raleway', sans-serif;
+        width: 42.5%;
+        height: 100%;
         font-size: 22px;
-        text-align: center;
-        padding-right: 12%;
+        // font-size: 22px;
+        margin: 5;
+        margin-left:10px;
+        margin-right: 10px;
+        background-color: #0075BF;
+     
+        
+     
+
     }
 
     .btn-icon{
-        margin-right: 10px;
-        font-size: 24px;
+        font-size: 70px;
+   
+    }
+
+    .tombol{
+        height: 155px;
+        width: 290px;
+        margin: 0 auto;
+        margin-bottom: 0px;
+        margin-top: 63%;
+        align-content: center;
+
        
     }
 

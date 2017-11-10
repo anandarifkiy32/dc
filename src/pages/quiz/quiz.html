@@ -13,6 +13,39 @@
 </ion-header>
 
 
-<ion-content padding>
 
+<ion-content padding>
+    <div class="soal" *ngFor="let item of items">
+          <p>{{ item.soal }}</p>    
+        <ion-list radio-group>
+          
+          <ion-item>
+            <ion-label>{{item.jawaban_a}}</ion-label>
+            <ion-radio value="{{item.jawaban_a}}"></ion-radio>
+          </ion-item>
+
+          <ion-item>
+              <ion-label>{{item.jawaban_b}}</ion-label>
+              <ion-radio value="{{item.jawaban_b}}"></ion-radio>
+          </ion-item>
+
+          <ion-item>
+              <ion-label>{{item.jawaban_c}}</ion-label>
+              <ion-radio value="{{item.jawaban_c}}"></ion-radio>
+          </ion-item>
+
+          <ion-item>
+              <ion-label>{{item.jawaban_d}}</ion-label>
+              <ion-radio value="{{item.jawaban_d}}"></ion-radio>
+          </ion-item>
+
+          <ion-item>
+            <ion-label>{{item.jawaban_e}}</ion-label>
+            <ion-radio value="{{item.jawaban_e}}"></ion-radio>
+        </ion-item>
+        </ion-list>         
+    </div>
+
+    <button ion-button>SELESAI</button>
+    
 </ion-content>

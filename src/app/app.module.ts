@@ -6,7 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { MateriPage } from '../pages/materi/materi';
+
 import { QuizPage } from '../pages/quiz/quiz';
 import { PendahuluanPage } from '../pages/pendahuluan/pendahuluan';
 import { MuatanlistrikPage } from '../pages/muatanlistrik/muatanlistrik';
@@ -19,6 +19,10 @@ import { HambatanparalelPage } from '../pages/hambatanparalel/hambatanparalel';
 import { HambatangabunganPage } from '../pages/hambatangabungan/hambatangabungan';
 import { HukumkirchoffPage } from '../pages/hukumkirchoff/hukumkirchoff';
 import { JembatanwsPage } from '../pages/jembatanws/jembatanws';
+import { LoginPage } from '../pages/login/login';
+import { HttpModule } from '@angular/http';
+import { SignupPage } from '../pages/signup/signup';
+import { MateriPage } from '../pages/materi/materi';
 
 @NgModule({
   declarations: [
@@ -36,11 +40,14 @@ import { JembatanwsPage } from '../pages/jembatanws/jembatanws';
     HambatanparalelPage,
     HambatangabunganPage,
     HukumkirchoffPage,
-    JembatanwsPage
+    JembatanwsPage,
+    LoginPage,
+    SignupPage
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    HttpModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -58,7 +65,9 @@ import { JembatanwsPage } from '../pages/jembatanws/jembatanws';
     HambatanparalelPage,
     HambatangabunganPage,
     HukumkirchoffPage,
-    JembatanwsPage
+    JembatanwsPage,
+    LoginPage,
+    SignupPage
   ],
   providers: [
     StatusBar,

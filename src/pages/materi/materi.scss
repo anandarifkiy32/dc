@@ -1,10 +1,29 @@
 page-materi {
+  background-color: rgb(11, 14, 179);
   font-family: 'Raleway', sans-serif;
+
+  .content{
+    background-color: #004E7F;
+  }
   .navbar{
     font-size: 22px;
     font-weight: bold;
+    background-color: black;
+    color: white;
 
   }
+
+
+
+  .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+    color: #fff;
+    background-color: transparent;
+}
+
+  .toolbar-background-md {
+    border-color: #ffffff;
+    background: #002740;
+}
 
   .colkanan{
     padding-left: 0px;
@@ -16,7 +35,7 @@ page-materi {
   .row{
   
     padding: 0px;
-    justify-content: space-around;
+
   }
 
     .bulat{
@@ -24,7 +43,7 @@ page-materi {
       width: 90px;
       height: 90px;
       margin-top: 15px;
-      border-radius: 50%
+    
     }
 
     .judul{
@@ -32,9 +51,9 @@ page-materi {
      font-size: 15px;
      padding-top: 0px;
      padding-bottom: 0px;
-     text-align: bottom;
+    
      font-weight: bold;
-     color: black;
+     color: white;
      position: absolute;
      bottom:10px;
      right: 0px;
@@ -50,7 +69,8 @@ page-materi {
       margin-bottom: 0px;
       margin-top: 5px;
       height: 150px;
-      background-color: rgb(247, 247, 247);
+      background-color: #0075BF;
+      padding: 0px;
     }
 
     .cardheader{

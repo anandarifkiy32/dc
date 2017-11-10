@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { NavController} from 'ionic-angular';
 import { MateriPage } from '../materi/materi';
 import { QuizPage } from '../quiz/quiz';
+import { LoginPage } from '../login/login';
+
 
 @Component({
   selector: 'page-home',
@@ -14,6 +16,10 @@ export class HomePage {
 
   bukaMateri(){
     this.navCtrl.push(MateriPage)
+  }
+
+  bukaLogin(){
+    this.navCtrl.push(LoginPage)
   }
 
   bukaQuiz(){
